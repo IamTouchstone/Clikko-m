@@ -1,9 +1,0 @@
-node_modules/
-dist/
-.env
-.env.local
-android/
-*.apk
-*.aab
-*.log
-.DS_Store
