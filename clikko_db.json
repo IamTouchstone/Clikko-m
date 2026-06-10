@@ -1,0 +1,59 @@
+{
+  "organizations": [
+    {
+      "id": "clikko-corp",
+      "name": "Clikko Global Logistics",
+      "superAdminName": "Alex Rivera",
+      "superAdminEmail": "admin@clikko.com",
+      "superAdminPassword": "admin",
+      "createdAt": "2026-06-09T23:34:25.222Z"
+    }
+  ],
+  "subadmins": [
+    {
+      "id": "sub-marcus",
+      "orgId": "clikko-corp",
+      "name": "Marcus Vance",
+      "email": "subadmin@clikko.com",
+      "password": "subadmin",
+      "departmentScope": "Operations Sector",
+      "role": "SubAdmin",
+      "createdAt": "2026-06-09T23:34:25.222Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-joy",
+      "orgId": "clikko-corp",
+      "name": "Joy Egbo",
+      "department": "UI/UX Design",
+      "avatarText": "JE",
+      "baseSalary": 2800,
+      "salaryMultiplier": 1,
+      "attitudeStatus": "Sleeping",
+      "attitudeMessage": "Joy Egbo is resting on desk B during office hours.",
+      "clockInStatus": "Clocked In",
+      "lastClockTime": "2026-06-07T08:15:00Z",
+      "email": "staff@clikko.com",
+      "password": "staff",
+      "role": "Staff"
+    },
+    {
+      "id": "staff-amara",
+      "orgId": "clikko-corp",
+      "name": "Amara Nwachukwu",
+      "department": "Front-end Engineering",
+      "avatarText": "AN",
+      "baseSalary": 4200,
+      "salaryMultiplier": 1,
+      "attitudeStatus": "Working",
+      "attitudeMessage": "Amara Nwachukwu is typing code frantically on monitor B.",
+      "clockInStatus": "Clocked In",
+      "lastClockTime": "2026-06-07T08:02:00Z",
+      "email": "amara@clikko.com",
+      "password": "staff",
+      "role": "Staff"
+    }
+  ],
+  "timeEntries": []
+}
